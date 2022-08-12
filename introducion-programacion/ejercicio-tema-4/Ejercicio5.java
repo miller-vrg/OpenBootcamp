@@ -51,13 +51,15 @@ public class Ejercicio5{
         write("3. Otoño");
         write("4. Primavera");
         write("5. Salir");
+        write("=====================================");
         System.out.print("Respuesta:\t");
         try {
             opcion = sc.nextInt();
+            write("=====================================");
             verificar();
         }catch (Exception e){
-            write("\t!!1Solo se aceptan numeros!!!\n");
-            menu();
+            write("=====================================");
+            write("   !!1Solo se aceptan numeros!!!");
         }
         }
 
